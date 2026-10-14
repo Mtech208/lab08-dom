@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lista de tareas</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 560px; margin: 30px auto; padding: 0 12px; }
+    ul { list-style: none; padding: 0; }
+    li { display: flex; justify-content: space-between; align-items: center;
+         border: 1px solid #ccc; padding: 8px 10px; margin-bottom: 6px; }
+    li span { cursor: pointer; }
+    .hecha span { text-decoration: line-through; color: #888; }
+    .error { color: #c0392b; }
+    .ok { color: #27ae60; }
+    form, .barra { margin-bottom: 12px; }
+  </style>
+</head>
+<body>
+  <h1 id="titulo">Mi lista de tareas</h1>
+  <p id="resumen"></p>
+  <ul id="lista"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
