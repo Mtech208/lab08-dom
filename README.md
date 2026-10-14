@@ -1,4 +1,4 @@
 # lab08-dom
 Bitacora de JavaScript interactivo: DOM, eventos y objetos
 - [Bitacora de JavaScript interactivo](notas/BITACORA.md)
-- [Ver la pagina en vivo](https://github.com/Mtech208/lab08-dom)
+- [Ver la pagina en vivo](https://Mtech208.github.io/lab08-dom/)
